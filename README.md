@@ -12,7 +12,7 @@ Step 2. Switch to the repo folder <br>
 
 Step 3. Install all the dependencies using composer<br>
  <i> composer install  </i> <br>
-Note :: create '.htaccess' file in public folder and '.env' in root folder if not created from 'composer intall'
+<b>Note :: create '.htaccess' file in public folder and '.env' in root folder if not created from 'composer intall'</b>
 
 Step 4. make configuration changes in the .env file (database)<br>
 <i> cp .env.example .env  </i>
