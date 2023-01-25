@@ -12,6 +12,7 @@ Step 2. Switch to the repo folder <br>
 
 Step 3. Install all the dependencies using composer<br>
  <i> composer install  </i>
+Note :: create '.htaccess' file in public folder and '.env' in root folder if not created from 'composer intall'
 
 Step 4. make configuration changes in the .env file (database)<br>
 <i> cp .env.example .env  </i>
@@ -28,3 +29,5 @@ Step 7. Run the database seeder for dummy datas<br>
 Step 8. Start the local development server<br>
 <i> php artisan serve  </i><br><br><br>
 You can now access the server at http://localhost:8000
+
+
